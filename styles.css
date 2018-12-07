@@ -12,16 +12,23 @@ body {
     width: 50vw;
     display:flex;
     justify-content: space-around;
-
 }
-
+.navbar{
+    padding: 0;
+}
 #firstNavbar{
     width: 100vw;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    transition: all .5s;
+    background: rgba(255,255,255,0);
+    height: 100px;
 }
 
+.background{
+    background: rgba(255,255,255,1) !important;
+}
 #imageLogo{
     width: 300px;
     margin-top: 13px;
